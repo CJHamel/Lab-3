@@ -10,5 +10,5 @@ pass
 # whether this module (ghg.py) is the module
 # being executed or whether it's just being
 # imported from some other module.
-if (__name__ == '__main__'):
-unittest.main()
+if __name__ == '__main__':
+    unittest.main()
